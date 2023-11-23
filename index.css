@@ -5,6 +5,22 @@
   font-family: "Inter", sans-serif;
 }
 
+/* Utility Classes */
+
+.fw-700 {
+  font-weight: 700;
+}
+
+.flex {
+  display: flex;
+}
+
+.flex-sb {
+  justify-content: space-between;
+}
+
+/*  */
+
 body {
   background: #1b1924;
 }
@@ -68,9 +84,13 @@ input::placeholder {
   text-align: center;
 }
 
-.endorsement {
+.endorsement-li {
   background-color: #ffffff;
   padding: 14px;
+}
+
+.endorsement-text {
+  margin: 10px 0;
 }
 
 ul {
