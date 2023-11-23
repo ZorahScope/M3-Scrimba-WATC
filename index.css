@@ -63,10 +63,13 @@ main {
   grid-column: 1 / -1;
   padding: 12px;
   resize: none;
+  color: #fff;
 }
 
 #endorsement-form input {
   grid-row: 2;
+  padding: 8px;
+  color: #fff;
 }
 
 #submit-button {
@@ -90,7 +93,7 @@ input::placeholder {
 }
 
 .endorsement-text {
-  margin: 10px 0;
+  margin: 12px 0;
 }
 
 ul {
