@@ -1,0 +1,42 @@
+<html lang="en">
+
+<head>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700&family=Josefin+Sans:wght@700&display=swap"
+        rel="stylesheet">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="index.css">
+    <title>Champions</title>
+</head>
+
+<body>
+    <main>
+        <img src="assets/freddie.png" alt="rockstar silhouette with one hand raised" id="app-icon">
+        <h1 class="app title">We are the Champions</h1>
+        <form action="" id="endorsement-form">
+            <textarea name="endorsement" id="endorsement-textarea" cols="30" rows="10"
+                placeholder="Write your endorsement here"></textarea>
+            <input type="text" name="from" id="from-input" placeholder="From">
+            <input type="text" name="to" id="to-input" placeholder="To">
+            <button type="submit" id="submit-button">Publish</button>
+        </form>
+        <h2 class="endorsements title">- Endorsements -</h2>
+        <ul class="endorsement-list" id="endorsement-list">
+            <li class="endorsement">
+                <h3 class="endorsement-to-person">Tony</h3>
+                <p class="endorsement-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quo, saepe dolores!
+                    Error perferendis ab officia sit consequuntur exercitationem quae consectetur, sequi culpa fugit
+                    illo excepturi quod in? Deleniti, facere pariatur.</p>
+                <div class="from-and-like-el">
+                    <span class="endorsement-from-person">From Kendrick</span>
+                    <span class="endorsement-likes">💚4</span>
+                </div>
+            </li>
+        </ul>
+    </main>
+    <script src="index.js"></script>
+</body>
+
+</html>

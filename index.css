@@ -1,0 +1,79 @@
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+  font-family: "Inter", sans-serif;
+}
+
+body {
+  background: #1b1924;
+}
+
+main {
+  width: 390px;
+  margin: 50px auto 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+#app-icon {
+  width: 90px;
+  height: 90px;
+}
+
+.title {
+  color: #fff;
+  font-size: 25px;
+  font-family: "Josefin Sans", sans-serif;
+}
+
+#endorsement-form {
+  width: 100%;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 120px 40px 60px;
+  gap: 10px;
+}
+
+#endorsement-form * {
+  min-width: 0px;
+  border-radius: 8px;
+  background-color: #444059;
+  border: none;
+}
+
+#endorsement-textarea {
+  grid-column: 1 / -1;
+  padding: 12px;
+  resize: none;
+}
+
+#endorsement-form input {
+  grid-row: 2;
+}
+
+#submit-button {
+  grid-column: 1 / -1;
+  font-size: 22px;
+  font-weight: 700;
+  background-color: #28a9f1;
+}
+
+::placeholder {
+  color: #8f8f8f;
+}
+
+input::placeholder {
+  text-align: center;
+}
+
+.endorsement {
+  background-color: #ffffff;
+  padding: 14px;
+}
+
+ul {
+  padding: 0px;
+  list-style: none;
+}
