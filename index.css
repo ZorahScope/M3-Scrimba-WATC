@@ -87,17 +87,25 @@ input::placeholder {
   text-align: center;
 }
 
+.endorsement-list {
+  width: 100%;
+  margin: 0px;
+  padding: 0px;
+  list-style: none;
+}
+
 .endorsement-li {
   background-color: #ffffff;
   padding: 14px;
+  margin-bottom: 15px;
 }
 
 .endorsement-text {
   margin: 12px 0;
 }
 
-ul {
-  margin: 0px;
-  padding: 0px;
-  list-style: none;
+.endorsement-likes {
+  border: none;
+  background: none;
+  padding: 0px 10px;
 }
