@@ -61,7 +61,6 @@ function createEndorsement(formData) {
     let value = parseInt(e.target.value) + 1;
     e.target.value = value;
     e.target.textContent = `🖤 ${value}`;
-    console.log(e.target);
   });
 
   // insert form data
